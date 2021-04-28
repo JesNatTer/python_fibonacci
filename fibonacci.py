@@ -12,5 +12,5 @@ if numbers <= 0:
     print("Please enter positive value")  # amount of numbers cannot be less than 1
 else:
     for i in range(numbers):  # amount of numbers is 1 or more, so sequence is printed
-        print(fibonacci(i))
+        print(fibonacci(i), end= "  ")
 
